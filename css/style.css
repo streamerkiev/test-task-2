@@ -1,0 +1,1195 @@
+@charset "UTF-8";
+/* normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 9, ../scss/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 19, ../scss/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 45, ../scss/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 57, ../scss/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 67, ../scss/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 78, ../scss/_normalize.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 89, ../scss/_normalize.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 98, ../scss/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 109, ../scss/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 118, ../scss/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 126, ../scss/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 135, ../scss/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 144, ../scss/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 153, ../scss/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 162, ../scss/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 169, ../scss/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 173, ../scss/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 184, ../scss/_normalize.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 192, ../scss/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 203, ../scss/_normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 211, ../scss/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 221, ../scss/_normalize.scss */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 232, ../scss/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 256, ../scss/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 266, ../scss/_normalize.scss */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 278, ../scss/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 293, ../scss/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 303, ../scss/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 312, ../scss/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 322, ../scss/_normalize.scss */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 335, ../scss/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 347, ../scss/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 357, ../scss/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 371, ../scss/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 379, ../scss/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 390, ../scss/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 399, ../scss/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 408, ../scss/_normalize.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 419, ../scss/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 425, ../scss/_normalize.scss */
+td,
+th {
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'ptsans_regular';
+  src: url("../fonts/PTS55F-webfont.eot");
+  src: url("../fonts/PTS55F-webfont.eot?iefix") format("eot"), url("../fonts/PTS55F-webfont.woff") format("woff"), url("../fonts/PTS55F-webfont.ttf") format("truetype"), url("../fonts/PTS55F-webfont.svg#webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, ../scss/_general.scss */
+body {
+  font-family: ptsans_regular, sans-serif;
+}
+
+/* IE fix */
+/* line 6, ../scss/_general.scss */
+header, nav, section, article, footer {
+  display: block;
+}
+
+/* EO IE fix */
+/* line 11, ../scss/_general.scss */
+.header-content-wrapper, .slide-content-wrapper, .main-content-wrapper, .footer-content-wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* line 15, ../scss/_general.scss */
+header {
+  overflow: hidden;
+  margin: 14px 20px;
+}
+
+/* line 19, ../scss/_general.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+/* line 22, ../scss/_general.scss */
+.logo {
+  display: block;
+  float: left;
+}
+
+/* line 26, ../scss/_general.scss */
+.burger-menu {
+  display: block;
+  float: right;
+  margin: 20px 10px;
+  padding: 11px 14px;
+  background: url("../images/burger_menu_mobile.png") 0 0 no-repeat;
+}
+
+/* line 33, ../scss/_general.scss */
+.top-menu {
+  display: none;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  right: -100px;
+  bottom: 0;
+  z-index: 2;
+  min-width: 50%;
+  background-color: rgba(206, 42, 49, 0.9);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#e5c62a31', endColorstr='#e5c62a31');
+  /* IE */
+}
+/* line 44, ../scss/_general.scss */
+.top-menu nav {
+  float: right;
+  clear: both;
+  margin: 30px;
+  text-align: right;
+}
+/* line 49, ../scss/_general.scss */
+.top-menu nav a {
+  display: block;
+  font-size: 24px;
+  line-height: 44px;
+  color: white;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+/* line 56, ../scss/_general.scss */
+.top-menu nav a:hover {
+  text-decoration: underline;
+}
+/* line 59, ../scss/_general.scss */
+.top-menu nav a.active {
+  color: #ffa4a4;
+}
+
+/* line 65, ../scss/_general.scss */
+.mobile-menu-close {
+  float: right;
+  clear: both;
+  margin: 30px;
+  padding: 12px;
+  background: url("../images/close_mobile.png") 0 0 no-repeat;
+}
+
+/* BX-Slider-related styles */
+/* line 74, ../scss/_general.scss */
+.bxslider {
+  margin: 0;
+}
+
+/* line 77, ../scss/_general.scss */
+.slide {
+  overflow: hidden;
+  min-height: 415px;
+  background: url("../images/banner_mobile.png") 0 0 no-repeat;
+  background-size: cover;
+}
+
+/* line 83, ../scss/_general.scss */
+.slide-content {
+  margin: 20px;
+  padding: 25px 18px;
+  background-color: rgba(0, 0, 0, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#b2000000,endColorStr=#b2000000);
+  color: white;
+}
+/* line 89, ../scss/_general.scss */
+.slide-content h1 {
+  margin: 0;
+  font-size: 30px;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+/* line 95, ../scss/_general.scss */
+.slide-content p {
+  margin: 12px 0;
+  font-size: 18px;
+}
+/* line 99, ../scss/_general.scss */
+.slide-content .event-date {
+  margin: 20px 0;
+  padding: 5px 5px 10px 40px;
+  background: url("../images/calendar.png") 0 0 no-repeat;
+}
+/* line 104, ../scss/_general.scss */
+.slide-content button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 25px;
+  background-color: #ce2a31;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* line 115, ../scss/_general.scss */
+.bx-wrapper {
+  position: relative;
+}
+
+/* line 118, ../scss/_general.scss */
+.bx-viewport {
+  max-height: 415px;
+}
+
+/* line 121, ../scss/_general.scss */
+.bx-pager {
+  position: absolute;
+  left: 50%;
+  bottom: 11px;
+  margin-left: -40px;
+}
+
+/* line 127, ../scss/_general.scss */
+.bx-pager-item {
+  display: inline-block;
+  margin: 5px;
+  overflow: hidden;
+  border: 1px solid #93999f;
+}
+/* line 132, ../scss/_general.scss */
+.bx-pager-item a {
+  display: block;
+  width: 8px;
+  height: 8px;
+  line-height: 0;
+  font-size: 0;
+  color: transparent;
+}
+/* line 139, ../scss/_general.scss */
+.bx-pager-item a.active {
+  background-color: rgba(147, 153, 159, 0.8);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#cc93999f,endColorStr=#cc93999f);
+}
+
+/* line 145, ../scss/_general.scss */
+.bx-controls-direction {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: none;
+  width: 100%;
+  max-width: 1024px;
+  margin: -23px 0 0 -512px;
+}
+/* line 153, ../scss/_general.scss */
+.bx-controls-direction a {
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 18px;
+  height: 47px;
+  margin-top: -15px;
+  padding: 15px;
+  line-height: 0;
+  font-size: 0;
+  color: transparent;
+}
+/* line 164, ../scss/_general.scss */
+.bx-controls-direction a.bx-prev {
+  left: 25px;
+  background: url("../images/arrow_left.png") 50% 50% no-repeat;
+}
+/* line 168, ../scss/_general.scss */
+.bx-controls-direction a.bx-next {
+  right: 25px;
+  background: url("../images/arrow_right.png") 50% 50% no-repeat;
+}
+
+/* EO BX-Slider-related styles */
+/* line 176, ../scss/_general.scss */
+main {
+  padding: 10px 20px;
+  background: url("../images/textura.png") 0 0 repeat;
+}
+/* line 179, ../scss/_general.scss */
+main a {
+  color: #ce2a31;
+  text-decoration: none;
+}
+/* line 182, ../scss/_general.scss */
+main a:hover {
+  text-decoration: underline;
+}
+
+/* line 188, ../scss/_general.scss */
+.main-section h2 {
+  margin: 15px 0;
+  font-size: 22px;
+  color: #454545;
+  text-transform: capitalize;
+}
+/* line 194, ../scss/_general.scss */
+.main-section h3 {
+  margin: 5px 0;
+  font-size: 21px;
+  line-height: 26px;
+}
+/* line 199, ../scss/_general.scss */
+.main-section article {
+  padding: 10px 0 15px;
+}
+/* line 201, ../scss/_general.scss */
+.main-section article p {
+  margin: 5px 0;
+  color: #778097;
+}
+
+/* line 207, ../scss/_general.scss */
+.article-date {
+  font-size: 12px;
+}
+
+/* line 210, ../scss/_general.scss */
+.conference-agenda-list {
+  padding-left: 20px;
+  font-size: 20px;
+  color: #ce2a31;
+}
+/* line 214, ../scss/_general.scss */
+.conference-agenda-list .event-time {
+  padding-left: 3px;
+  font-size: 14px;
+  color: black;
+}
+/* line 219, ../scss/_general.scss */
+.conference-agenda-list .event-description {
+  padding: 2px 0 10px 3px;
+  font-size: 16px;
+  color: #778097;
+}
+
+/* line 225, ../scss/_general.scss */
+.members-list ol {
+  padding: 0;
+  list-style-type: none;
+}
+/* line 228, ../scss/_general.scss */
+.members-list ol li {
+  padding: 8px 0 10px;
+  font-size: 17px;
+  counter-increment: customlistcounter;
+}
+/* line 232, ../scss/_general.scss */
+.members-list ol li:before {
+  content: counter(customlistcounter) " ";
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  padding: 5px 3px 1px;
+  border: 1px solid #ce2a31;
+  border-radius: 14px;
+  font-size: 12px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* line 247, ../scss/_general.scss */
+.member-name {
+  padding-left: 45px;
+  color: #ce2a31;
+}
+
+/* line 251, ../scss/_general.scss */
+.member-position {
+  padding-left: 45px;
+  color: #778097;
+}
+
+/* line 255, ../scss/_general.scss */
+.last-article {
+  clear: both;
+}
+/* line 257, ../scss/_general.scss */
+.last-article img {
+  max-width: 100%;
+}
+/* line 260, ../scss/_general.scss */
+.last-article p {
+  padding: 10px 0 5px;
+  font-size: 18px;
+}
+
+/* line 265, ../scss/_general.scss */
+.social-icons {
+  margin: 20px -10px;
+  padding: 0;
+  overflow: hidden;
+  clear: both;
+  list-style: none;
+}
+/* line 271, ../scss/_general.scss */
+.social-icons li {
+  float: left;
+  width: 16.66%;
+}
+/* line 274, ../scss/_general.scss */
+.social-icons li a {
+  display: block;
+  padding: 15px;
+}
+/* line 279, ../scss/_general.scss */
+.social-icons .facebook {
+  background: url("../images/facebook_mobile.png") 50% 0 no-repeat;
+}
+/* line 282, ../scss/_general.scss */
+.social-icons .twitter {
+  background: url("../images/twitter_mobile.png") 50% 0 no-repeat;
+}
+/* line 285, ../scss/_general.scss */
+.social-icons .linkedin {
+  background: url("../images/linkedin_mobile.png") 50% 0 no-repeat;
+}
+/* line 288, ../scss/_general.scss */
+.social-icons .instagram {
+  background: url("../images/instagram_mobile.png") 50% 0 no-repeat;
+}
+/* line 291, ../scss/_general.scss */
+.social-icons .google {
+  background: url("../images/google_mobile.png") 50% 0 no-repeat;
+}
+/* line 294, ../scss/_general.scss */
+.social-icons .youtube {
+  background: url("../images/youtube_mobile.png") 50% 0 no-repeat;
+}
+
+/* line 298, ../scss/_general.scss */
+footer {
+  padding: 25px 20px;
+  background-color: #ce2a31;
+  font-size: 13px;
+  color: white;
+  text-align: center;
+}
+/* line 304, ../scss/_general.scss */
+footer .copyright {
+  text-transform: capitalize;
+}
+/* line 307, ../scss/_general.scss */
+footer nav {
+  padding: 20px 0;
+  text-transform: capitalize;
+}
+/* line 310, ../scss/_general.scss */
+footer nav a {
+  display: inline-block;
+  padding: 0 10px;
+}
+/* line 313, ../scss/_general.scss */
+footer nav a:hover {
+  text-decoration: underline;
+}
+/* line 317, ../scss/_general.scss */
+footer nav a, footer nav a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 500px) {
+  /* line 2, ../scss/_breakpoints.scss */
+  .slide {
+    min-height: 450px;
+    background: url("../images/banner_tablet.png") 0 0 no-repeat;
+    background-size: cover;
+  }
+
+  /* line 7, ../scss/_breakpoints.scss */
+  .slide-content {
+    margin: 70px 60px;
+  }
+
+  /* line 10, ../scss/_breakpoints.scss */
+  .last-article img {
+    max-width: 307px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 15, ../scss/_breakpoints.scss */
+  .burger-menu, .mobile-menu-close {
+    display: none;
+  }
+
+  /* line 18, ../scss/_breakpoints.scss */
+  header {
+    margin: 14px 30px;
+  }
+
+  /* line 21, ../scss/_breakpoints.scss */
+  .top-menu {
+    position: static;
+    display: block;
+    opacity: 1;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  /* line 27, ../scss/_breakpoints.scss */
+  .top-menu nav {
+    clear: none;
+    margin: 15px 0;
+  }
+  /* line 31, ../scss/_breakpoints.scss */
+  .top-menu nav a {
+    display: inline-block;
+    margin-left: 18px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #778092;
+  }
+  /* line 37, ../scss/_breakpoints.scss */
+  .top-menu nav a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #ce2a31;
+  }
+  /* line 41, ../scss/_breakpoints.scss */
+  .top-menu nav a.active {
+    border-bottom: 2px solid #ce2a31;
+    color: #454545;
+  }
+
+  /* line 48, ../scss/_breakpoints.scss */
+  .slide {
+    min-height: 490px;
+  }
+
+  /* line 51, ../scss/_breakpoints.scss */
+  .slide-content {
+    margin: 138px 120px 0;
+  }
+  /* line 53, ../scss/_breakpoints.scss */
+  .slide-content h1 {
+    font-size: 38px;
+    line-height: 35px;
+  }
+  /* line 57, ../scss/_breakpoints.scss */
+  .slide-content .event-date {
+    float: left;
+    margin: 12px 0;
+    padding-right: 55px;
+    font-size: 20px;
+  }
+  /* line 63, ../scss/_breakpoints.scss */
+  .slide-content button {
+    display: inline-block;
+    margin: 10px 0;
+  }
+
+  /* line 68, ../scss/_breakpoints.scss */
+  .bx-viewport {
+    max-height: 490px;
+  }
+
+  /* line 71, ../scss/_breakpoints.scss */
+  main {
+    padding: 20px 30px;
+  }
+
+  /* line 75, ../scss/_breakpoints.scss */
+  .main-section h2 {
+    font-size: 28px;
+    line-height: 45px;
+  }
+  /* line 79, ../scss/_breakpoints.scss */
+  .main-section h3 {
+    max-width: 70%;
+    font-size: 26px;
+  }
+
+  /* line 84, ../scss/_breakpoints.scss */
+  .conference-agenda {
+    float: left;
+    width: 60%;
+  }
+
+  /* line 88, ../scss/_breakpoints.scss */
+  .members-list {
+    float: left;
+    width: 40%;
+  }
+  /* line 91, ../scss/_breakpoints.scss */
+  .members-list ol li {
+    padding: 8px 0 8px;
+  }
+
+  /* line 95, ../scss/_breakpoints.scss */
+  .conference-agenda-list .event-description, .member-name, .member-position {
+    font-size: 18px;
+  }
+
+  /* line 98, ../scss/_breakpoints.scss */
+  .last-article {
+    padding-top: 10px;
+  }
+  /* line 100, ../scss/_breakpoints.scss */
+  .last-article h3 {
+    max-width: 100%;
+  }
+  /* line 104, ../scss/_breakpoints.scss */
+  .last-article .article1 img {
+    float: left;
+    margin: 5px 25px 15px 0;
+  }
+  /* line 110, ../scss/_breakpoints.scss */
+  .last-article .article2 img {
+    float: right;
+    margin: 5px 0 15px 35px;
+  }
+
+  /* line 116, ../scss/_breakpoints.scss */
+  .social-icons {
+    margin: 50px -40px;
+  }
+  /* line 118, ../scss/_breakpoints.scss */
+  .social-icons li a {
+    padding: 21px;
+  }
+  /* line 121, ../scss/_breakpoints.scss */
+  .social-icons .facebook {
+    background: url("../images/facebook.png") 50% 0 no-repeat;
+  }
+  /* line 124, ../scss/_breakpoints.scss */
+  .social-icons .twitter {
+    background: url("../images/twitter.png") 50% 0 no-repeat;
+  }
+  /* line 127, ../scss/_breakpoints.scss */
+  .social-icons .linkedin {
+    background: url("../images/linkedin.png") 50% 0 no-repeat;
+  }
+  /* line 130, ../scss/_breakpoints.scss */
+  .social-icons .instagram {
+    background: url("../images/instagram.png") 50% 0 no-repeat;
+  }
+  /* line 133, ../scss/_breakpoints.scss */
+  .social-icons .google {
+    background: url("../images/google.png") 50% 0 no-repeat;
+  }
+  /* line 136, ../scss/_breakpoints.scss */
+  .social-icons .youtube {
+    background: url("../images/youtube.png") 50% 0 no-repeat;
+  }
+
+  /* line 140, ../scss/_breakpoints.scss */
+  footer {
+    padding: 45px 30px;
+    overflow: hidden;
+  }
+  /* line 143, ../scss/_breakpoints.scss */
+  footer .copyright {
+    float: left;
+    width: 35%;
+    text-align: left;
+  }
+  /* line 148, ../scss/_breakpoints.scss */
+  footer nav {
+    float: left;
+    width: 35%;
+    padding: 0;
+  }
+  /* line 153, ../scss/_breakpoints.scss */
+  footer .made-in {
+    float: left;
+    width: 30%;
+    text-align: right;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 161, ../scss/_breakpoints.scss */
+  header {
+    margin: 14px 40px;
+  }
+
+  /* line 164, ../scss/_breakpoints.scss */
+  .slide {
+    min-height: 520px;
+    background: url("../images/banner_desktop.png") 0 0 no-repeat;
+    background-size: cover;
+  }
+
+  /* line 169, ../scss/_breakpoints.scss */
+  .slide-content {
+    max-width: 47%;
+    margin-top: 155px;
+  }
+
+  /* line 173, ../scss/_breakpoints.scss */
+  .bx-viewport {
+    max-height: 520px;
+  }
+
+  /* line 176, ../scss/_breakpoints.scss */
+  .bx-controls-direction {
+    display: block;
+  }
+
+  /* line 179, ../scss/_breakpoints.scss */
+  main {
+    overflow: hidden;
+    padding: 30px 40px;
+  }
+
+  /* line 183, ../scss/_breakpoints.scss */
+  .main-section {
+    float: left;
+  }
+  /* line 185, ../scss/_breakpoints.scss */
+  .main-section h2, .main-section article, .main-section ul, .main-section ol {
+    max-width: 80%;
+  }
+  /* line 188, ../scss/_breakpoints.scss */
+  .main-section h2 {
+    font-size: 26px;
+  }
+  /* line 191, ../scss/_breakpoints.scss */
+  .main-section h3 {
+    max-width: 100%;
+    font-size: 16px;
+  }
+  /* line 195, ../scss/_breakpoints.scss */
+  .main-section p {
+    font-size: 14px;
+  }
+
+  /* line 199, ../scss/_breakpoints.scss */
+  .competency-news, .conference-agenda {
+    width: 37%;
+  }
+
+  /* line 202, ../scss/_breakpoints.scss */
+  .members-list {
+    width: 26%;
+  }
+
+  /* line 206, ../scss/_breakpoints.scss */
+  .conference-agenda-list li {
+    padding: 6px 0;
+  }
+  /* line 209, ../scss/_breakpoints.scss */
+  .conference-agenda-list .event-time {
+    font-size: 13px;
+  }
+
+  /* line 213, ../scss/_breakpoints.scss */
+  .conference-agenda-list .event-description, .member-name, .member-position {
+    font-size: 16px;
+  }
+
+  /* line 216, ../scss/_breakpoints.scss */
+  .members-list ol li {
+    padding: 10px 0 19px;
+  }
+
+  /* line 219, ../scss/_breakpoints.scss */
+  .last-article {
+    float: none;
+    overflow: hidden;
+  }
+  /* line 222, ../scss/_breakpoints.scss */
+  .last-article article {
+    width: 48.5%;
+  }
+  /* line 224, ../scss/_breakpoints.scss */
+  .last-article article img {
+    max-width: 200px;
+  }
+  /* line 228, ../scss/_breakpoints.scss */
+  .last-article .article1 {
+    float: left;
+  }
+  /* line 230, ../scss/_breakpoints.scss */
+  .last-article .article1 img {
+    margin: 5px 15px 20px 0;
+  }
+  /* line 234, ../scss/_breakpoints.scss */
+  .last-article .article2 {
+    float: right;
+  }
+  /* line 236, ../scss/_breakpoints.scss */
+  .last-article .article2 img {
+    margin: 5px 0 15px 25px;
+  }
+
+  /* line 241, ../scss/_breakpoints.scss */
+  .social-icons {
+    max-width: 87%;
+    margin: 45px auto;
+  }
+
+  /* line 245, ../scss/_breakpoints.scss */
+  footer {
+    padding: 50px 40px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  /* line 250, ../scss/_breakpoints.scss */
+  .slide {
+    background: url("../images/banner_desktop_hd.png") 0 0 no-repeat;
+    background-size: cover;
+  }
+}

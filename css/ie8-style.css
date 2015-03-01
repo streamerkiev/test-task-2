@@ -1,0 +1,336 @@
+
+    /* line 2, ../scss/_breakpoints.scss */
+    .slide {
+        min-height: 450px;
+        background: url("../images/banner_tablet.png") 0 0 no-repeat;
+        background-size: cover;
+    }
+
+    /* line 7, ../scss/_breakpoints.scss */
+    .slide-content {
+        margin: 70px 60px;
+    }
+
+    /* line 10, ../scss/_breakpoints.scss */
+    .last-article img {
+        max-width: 307px;
+    }
+
+    /* line 15, ../scss/_breakpoints.scss */
+    .burger-menu, .mobile-menu-close {
+        display: none;
+    }
+
+    /* line 18, ../scss/_breakpoints.scss */
+    header {
+        margin: 14px 30px;
+    }
+
+    /* line 21, ../scss/_breakpoints.scss */
+    .top-menu {
+        position: static;
+        display: block;
+        opacity: 1;
+        overflow: hidden;
+        background-color: transparent;
+        filter: none;
+    }
+    /* line 27, ../scss/_breakpoints.scss */
+    .top-menu nav {
+        clear: none;
+        margin: 15px 0;
+    }
+    /* line 30, ../scss/_breakpoints.scss */
+    .top-menu nav a {
+        display: inline-block;
+        margin-left: 18px;
+        font-size: 20px;
+        line-height: 28px;
+        color: #778092;
+    }
+    /* line 36, ../scss/_breakpoints.scss */
+    .top-menu nav a:hover {
+        text-decoration: none;
+        border-bottom: 2px solid #ce2a31;
+    }
+    /* line 40, ../scss/_breakpoints.scss */
+    .top-menu nav a.active {
+        border-bottom: 2px solid #ce2a31;
+        color: #454545;
+    }
+
+    /* line 47, ../scss/_breakpoints.scss */
+    .slide {
+        min-height: 490px;
+    }
+
+    /* line 50, ../scss/_breakpoints.scss */
+    .slide-content {
+        margin: 138px 120px 0;
+    }
+    /* line 52, ../scss/_breakpoints.scss */
+    .slide-content h1 {
+        font-size: 38px;
+        line-height: 35px;
+    }
+    /* line 56, ../scss/_breakpoints.scss */
+    .slide-content .event-date {
+        float: left;
+        margin: 12px 0;
+        padding-right: 55px;
+        font-size: 20px;
+    }
+    /* line 62, ../scss/_breakpoints.scss */
+    .slide-content button {
+        display: inline-block;
+        margin: 10px 0;
+    }
+
+    /* line 67, ../scss/_breakpoints.scss */
+    .bx-viewport {
+        max-height: 490px;
+    }
+
+    /* line 70, ../scss/_breakpoints.scss */
+    main {
+        padding: 20px 30px;
+    }
+
+    /* line 74, ../scss/_breakpoints.scss */
+    .main-section h2 {
+        font-size: 28px;
+        line-height: 45px;
+    }
+    /* line 78, ../scss/_breakpoints.scss */
+    .main-section h3 {
+        max-width: 70%;
+        font-size: 26px;
+    }
+
+    /* line 83, ../scss/_breakpoints.scss */
+    .conference-agenda {
+        float: left;
+        width: 60%;
+    }
+
+    /* line 87, ../scss/_breakpoints.scss */
+    .members-list {
+        float: left;
+        width: 40%;
+    }
+    /* line 90, ../scss/_breakpoints.scss */
+    .members-list ol li {
+        padding: 8px 0 8px;
+    }
+
+    /* line 94, ../scss/_breakpoints.scss */
+    .conference-agenda-list .event-description, .member-name, .member-position {
+        font-size: 18px;
+    }
+
+    /* line 97, ../scss/_breakpoints.scss */
+    .last-article {
+        padding-top: 10px;
+    }
+    /* line 99, ../scss/_breakpoints.scss */
+    .last-article h3 {
+        max-width: 100%;
+    }
+    /* line 103, ../scss/_breakpoints.scss */
+    .last-article .article1 img {
+        float: left;
+        margin: 5px 25px 15px 0;
+    }
+    /* line 109, ../scss/_breakpoints.scss */
+    .last-article .article2 img {
+        float: right;
+        margin: 5px 0 15px 35px;
+    }
+
+    /* line 115, ../scss/_breakpoints.scss */
+    .social-icons {
+        margin: 50px -40px;
+    }
+    /* line 117, ../scss/_breakpoints.scss */
+    .social-icons li a {
+        padding: 21px;
+    }
+    /* line 120, ../scss/_breakpoints.scss */
+    .social-icons .facebook {
+        background: url("../images/facebook.png") 50% 0 no-repeat;
+    }
+    /* line 123, ../scss/_breakpoints.scss */
+    .social-icons .twitter {
+        background: url("../images/twitter.png") 50% 0 no-repeat;
+    }
+    /* line 126, ../scss/_breakpoints.scss */
+    .social-icons .linkedin {
+        background: url("../images/linkedin.png") 50% 0 no-repeat;
+    }
+    /* line 129, ../scss/_breakpoints.scss */
+    .social-icons .instagram {
+        background: url("../images/instagram.png") 50% 0 no-repeat;
+    }
+    /* line 132, ../scss/_breakpoints.scss */
+    .social-icons .google {
+        background: url("../images/google.png") 50% 0 no-repeat;
+    }
+    /* line 135, ../scss/_breakpoints.scss */
+    .social-icons .youtube {
+        background: url("../images/youtube.png") 50% 0 no-repeat;
+    }
+
+    /* line 139, ../scss/_breakpoints.scss */
+    footer {
+        padding: 45px 30px;
+        overflow: hidden;
+    }
+    /* line 142, ../scss/_breakpoints.scss */
+    footer .copyright {
+        float: left;
+        width: 35%;
+        text-align: left;
+    }
+    /* line 147, ../scss/_breakpoints.scss */
+    footer nav {
+        float: left;
+        width: 35%;
+        padding: 0;
+    }
+    /* line 152, ../scss/_breakpoints.scss */
+    footer .made-in {
+        float: left;
+        width: 30%;
+        text-align: right;
+    }
+
+    /* line 160, ../scss/_breakpoints.scss */
+    header {
+        margin: 14px 40px;
+    }
+
+    /* line 163, ../scss/_breakpoints.scss */
+    .slide {
+        min-height: 520px;
+        background: url("../images/banner_desktop.png") 0 0 no-repeat;
+        background-size: cover;
+    }
+
+    /* line 168, ../scss/_breakpoints.scss */
+    .slide-content {
+        max-width: 47%;
+        margin-top: 155px;
+    }
+
+    /* line 172, ../scss/_breakpoints.scss */
+    .bx-viewport {
+        max-height: 520px;
+    }
+
+    /* line 175, ../scss/_breakpoints.scss */
+    .bx-controls-direction {
+        display: block;
+    }
+
+    /* line 178, ../scss/_breakpoints.scss */
+    main {
+        overflow: hidden;
+        padding: 30px 40px;
+    }
+
+    /* line 182, ../scss/_breakpoints.scss */
+    .main-section {
+        float: left;
+    }
+    /* line 184, ../scss/_breakpoints.scss */
+    .main-section h2, .main-section article, .main-section ul, .main-section ol {
+        max-width: 80%;
+    }
+    /* line 187, ../scss/_breakpoints.scss */
+    .main-section h2 {
+        font-size: 26px;
+    }
+    /* line 190, ../scss/_breakpoints.scss */
+    .main-section h3 {
+        max-width: 100%;
+        font-size: 16px;
+    }
+    /* line 194, ../scss/_breakpoints.scss */
+    .main-section p {
+        font-size: 14px;
+    }
+
+    /* line 198, ../scss/_breakpoints.scss */
+    .competency-news, .conference-agenda {
+        width: 37%;
+    }
+
+    /* line 201, ../scss/_breakpoints.scss */
+    .members-list {
+        width: 26%;
+    }
+
+    /* line 205, ../scss/_breakpoints.scss */
+    .conference-agenda-list li {
+        padding: 6px 0;
+    }
+    /* line 208, ../scss/_breakpoints.scss */
+    .conference-agenda-list .event-time {
+        font-size: 13px;
+    }
+
+    /* line 212, ../scss/_breakpoints.scss */
+    .conference-agenda-list .event-description, .member-name, .member-position {
+        font-size: 16px;
+    }
+
+    /* line 215, ../scss/_breakpoints.scss */
+    .members-list ol li {
+        padding: 10px 0 19px;
+    }
+
+    /* line 218, ../scss/_breakpoints.scss */
+    .last-article {
+        float: none;
+        overflow: hidden;
+    }
+    /* line 221, ../scss/_breakpoints.scss */
+    .last-article article {
+        width: 48.5%;
+    }
+    /* line 223, ../scss/_breakpoints.scss */
+    .last-article article img {
+        max-width: 200px;
+    }
+    /* line 227, ../scss/_breakpoints.scss */
+    .last-article .article1 {
+        float: left;
+    }
+    /* line 229, ../scss/_breakpoints.scss */
+    .last-article .article1 img {
+        margin: 5px 15px 20px 0;
+    }
+    /* line 233, ../scss/_breakpoints.scss */
+    .last-article .article2 {
+        float: right;
+    }
+    /* line 235, ../scss/_breakpoints.scss */
+    .last-article .article2 img {
+        margin: 5px 0 15px 25px;
+    }
+
+    /* line 240, ../scss/_breakpoints.scss */
+    .social-icons {
+        max-width: 87%;
+        margin: 45px auto;
+    }
+
+    /* line 244, ../scss/_breakpoints.scss */
+    footer {
+        padding: 50px 40px;
+    }
+
+    /* line 249, ../scss/_breakpoints.scss */
+    .slide {
+        background: url("../images/banner_desktop_hd-ie.png") 0 0 no-repeat;
+    }
